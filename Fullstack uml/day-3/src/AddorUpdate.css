@@ -1,0 +1,98 @@
+#body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+  }
+  
+  .signup-form {
+    width: 500px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header p {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    margin-bottom: 15px;
+  }
+  
+  .input input,
+  .input select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .input select {
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  
+  .e-signup-btn {
+    background-color: #f8b365;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .e-cancel-btn {
+    background-color: #f66877;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .e-cancel-btn:hover,
+  .e-signup-btn:hover {
+    opacity: 0.8;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 480px) {
+    .signup-form {
+      width: 100%;
+    }
+  }
+  #select {
+    appearance: none;
+    height: 40px; /* Set the desired height */
+    width: 395px; /* Set the desired width */
+  }

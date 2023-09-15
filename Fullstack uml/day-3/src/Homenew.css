@@ -1,0 +1,31 @@
+#actions{
+    background-color: rgb(225, 248, 238);
+    border-width:1px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+#actions:hover{
+    background-color: rgb(5, 5, 5);
+    color:aliceblue;
+}
+#action-del{
+    background-color: rgb(248, 225, 219);
+    border-width:1px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+#action-del:hover{
+    background-color: rgb(5, 5, 5);
+    color:rgb(184, 71, 71);
+}
+#table-col{
+    background-color: rgb(143, 209, 139);
+}
+#page-change{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#classy{
+    color: rgb(130, 215, 238);
+}
